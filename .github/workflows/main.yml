@@ -14,11 +14,9 @@ jobs:
 
 
     steps:
-      - name: 'test print before'
-        run: ls
-
       - uses: actions/checkout@v3 
+      
+      - name: "login"
+        run: docker login --username maro002 --password dckr_pat_Wv7nij505esvC-RgI8wfurgeTy8
 
-      - name: 'test print after'
-        run: ls 
       
