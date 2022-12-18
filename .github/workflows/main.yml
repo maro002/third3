@@ -14,7 +14,6 @@ jobs:
 
 
     steps:
-      - name: 'test action'
-        run: pwd
       - name: 'test print'
-        run: echo maroooo
+        run: 1s
+      
