@@ -1,1 +1,20 @@
+on: 
+  push:
+   branches: 
+     -master2
+  
 
+
+
+
+
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - name: 'test action'
+        run: pwd
+      - name: 'test print'
+        run: echo maroooo
